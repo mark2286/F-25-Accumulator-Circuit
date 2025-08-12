@@ -1,0 +1,822 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a271515d-d751-4f33-a101-6b153cbed642)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 2.032 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "R" (at 0 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at -1.778 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_0_1"
+        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 32.893 91.567) (diameter 0) (color 0 0 0 0)
+    (uuid 7564f36d-a34d-4303-b338-facc0bafe703)
+  )
+  (junction (at 96.012 44.069) (diameter 0) (color 0 0 0 0)
+    (uuid ab71fca7-1a1a-473f-9d9a-3bfb34fe8307)
+  )
+  (junction (at 28.956 35.306) (diameter 0) (color 0 0 0 0)
+    (uuid af664b7f-f581-4aa8-924c-e12d9d260c0e)
+  )
+  (junction (at 49.911 99.187) (diameter 0) (color 0 0 0 0)
+    (uuid e3dde494-2ee8-43e1-bc5b-fd97d7e6a0eb)
+  )
+  (junction (at 78.994 36.449) (diameter 0) (color 0 0 0 0)
+    (uuid f64b3483-266d-46d4-ad2a-aa312f8115df)
+  )
+
+  (wire (pts (xy 45.974 35.306) (xy 28.956 35.306))
+    (stroke (width 0) (type default))
+    (uuid 0b0fcb8f-e85c-455a-9ebc-0e5daff32399)
+  )
+  (wire (pts (xy 96.012 36.449) (xy 78.994 36.449))
+    (stroke (width 0) (type default))
+    (uuid 1549c179-588e-494a-b8fd-7ff4ef9730ad)
+  )
+  (wire (pts (xy 49.911 91.567) (xy 32.893 91.567))
+    (stroke (width 0) (type default))
+    (uuid 3d1391a8-d1a6-471c-aa2e-b7ff8c1a3b42)
+  )
+  (wire (pts (xy 111.2098 44.069) (xy 96.012 44.069))
+    (stroke (width 0) (type default))
+    (uuid 7ec5bdf8-8f7e-4683-b57d-e551f7fb68ef)
+  )
+  (wire (pts (xy 70.231 99.187) (xy 49.911 99.187))
+    (stroke (width 0) (type default))
+    (uuid 8abe299b-76de-41ae-94bc-dd4953e7d2b2)
+  )
+
+  (rectangle (start 23.622 90.805) (end 67.056 116.586)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 310143ac-ccd2-4ee9-9819-346707ad67bf)
+  )
+  (rectangle (start 18.796 17.399) (end 120.523 63.246)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 52250df9-08dd-4a9f-88a6-2bcd61df6a4b)
+  )
+
+  (text "4.036V @ 600V\n2.036V @ 302.4V\n0.4V @ 60V" (at 70.358 107.061 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5776a91f-c413-4168-a2d3-c15ec3713e2a)
+  )
+  (text "5.941V @ 600V\n2.994V @ 302.4V\n0.594V @ 60V" (at 46.101 42.926 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8af846e6-e561-42b0-817b-b905628df4a0)
+  )
+  (text "90% of 2.25V\n= 2.025 < 2.036(90.5%)" (at 70.485 111.379 0)
+    (effects (font (size 1.27 1.27) (color 200 0 0 1)) (justify left bottom))
+    (uuid a0f5a7f5-f157-45ba-8b38-8f71330181f5)
+  )
+  (text "Wisconsin 23" (at 20.32 61.976 0)
+    (effects (font (size 1.27 1.27) bold) (justify left bottom))
+    (uuid ae5acb24-a2c0-48aa-b40c-e54fb8b1bc8c)
+  )
+  (text "4.44V @ 600V\n2.24V @ 302.4V\n0.44V @ 60V" (at 50.292 90.424 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cce7791d-186f-4934-9290-3e7cc7d54c57)
+  )
+  (text "1.4898k" (at 23.876 116.205 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e39a5f1f-a54d-4834-ac7c-b2a2336eb277)
+  )
+  (text "Res Tolerance = 0.1%" (at 26.289 49.911 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ff96f964-e785-4db4-9dca-bf30cd7cbcae)
+  )
+
+  (global_label "INV(-)" (shape output) (at 32.893 99.187 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 1dea6055-0227-4ad6-846b-8ecbd2f9483c)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 23.6975 99.187 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "TS_Stat" (shape output) (at 45.974 35.306 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 22eb92d3-7444-44ea-a2f2-c645c5856bf3)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 55.8344 35.306 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "INV(-)" (shape output) (at 78.994 44.069 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 3d803b1a-cf09-424b-b080-d7c3514841c1)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 69.7985 44.069 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "INV(-)" (shape output) (at 49.911 114.427 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 413fd189-5089-4195-a0dd-32e1e0b6a8a2)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 40.7155 114.427 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "INV(+)" (shape input) (at 28.956 20.066 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 61b37bd0-a04c-433a-ba92-cf8d2a1d5d21)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 19.7605 20.066 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "INV(-)" (shape output) (at 96.012 59.309 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 8bbbfd97-1968-4094-a870-c5db3d7afb3f)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 86.8165 59.309 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ACCU(+)" (shape input) (at 32.893 76.327 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a06ff0bf-7e91-4c37-b1e3-84f724d13260)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 21.7623 76.327 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "INV(-)" (shape output) (at 28.956 42.926 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a0f6ca8e-56c5-4029-bcb5-bf09fe19c30e)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 19.7605 42.926 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ACCU(+)" (shape input) (at 78.994 21.209 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid e01efdb5-b1b3-47f3-9f46-3225d1710104)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 67.8633 21.209 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "90PER" (shape output) (at 70.231 99.187 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e6a1b501-f5ad-42d7-9535-8c4024544ba6)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 79.2448 99.187 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "90PER" (shape output) (at 111.2098 44.069 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f067edf1-5590-4c3f-8072-b73d43016554)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 120.2236 44.069 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 28.956 39.116 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0e818952-e0b4-4012-bc58-d724a86f6aec)
+    (property "Reference" "R?" (at 31.369 38.481 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2k" (at 31.369 41.021 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "KORA:R_1206" (at 27.178 39.116 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 28.956 39.116 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c5f92468-ccf4-4c45-b350-84a55d2fbc3a))
+    (pin "2" (uuid 1e3d34d3-002c-48d4-a163-9a32fd041733))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 78.994 32.639 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 29b8d2ca-b64c-4cba-b385-60e3f6b37126)
+    (property "Reference" "R?" (at 81.407 32.004 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100k" (at 81.407 34.544 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "KORA:R_1206" (at 80.772 32.639 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 78.994 32.639 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f37c60bd-6598-492a-a647-52d9bd5f5f7e))
+    (pin "2" (uuid 26d3b07a-de10-4485-b380-05a71aabb969))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 96.012 47.879 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 45a17be0-fcc4-4bac-bb70-82177ef0fd5d)
+    (property "Reference" "R?" (at 97.917 47.244 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100k" (at 97.917 49.784 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "KORA:R_1206" (at 97.79 47.879 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 96.012 47.879 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a2b18ba2-fbbb-48c3-b364-ddf81182abbb))
+    (pin "2" (uuid b071e302-8382-4d37-b859-8bff1e96ecff))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 96.012 40.259 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6495adbb-d66e-435c-b36b-1eb02d65297d)
+    (property "Reference" "R?" (at 97.917 39.624 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "20k" (at 97.917 42.164 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "KORA:R_1206" (at 97.79 40.259 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 96.012 40.259 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b7b26087-6580-4fd1-8c90-c70ba4130e88))
+    (pin "2" (uuid 8c9923d9-56ef-4cbb-b46b-29181b324e75))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 32.893 87.757 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 67bce98d-22c9-43d1-9ae2-f8ff6ace0d15)
+    (property "Reference" "R?" (at 35.306 87.122 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100k_2512_6W" (at 35.306 89.662 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "KORA:R_1206" (at 34.671 87.757 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.digikey.kr/en/products/detail/te-connectivity-passive-product/3560100KFT/9927431" (at 32.893 87.757 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b89916fb-5ad8-409d-abad-850584c0099b))
+    (pin "2" (uuid eb14e40d-3db2-4c22-ac32-252e2a23ae7d))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 49.911 110.617 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 69df2eae-f878-40b8-bb18-e14488eb1e2c)
+    (property "Reference" "R?" (at 52.197 109.982 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100k_2512_6W" (at 52.197 112.522 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "KORA:R_1206" (at 51.689 110.617 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.digikey.kr/en/products/detail/te-connectivity-passive-product/3560100KFT/9927431" (at 49.911 110.617 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 427043ff-1aa1-4c41-a86e-b91913145622))
+    (pin "2" (uuid 718bb2e8-e447-4b6d-b760-0cd9ba00cc09))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 96.012 55.499 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 87110370-55f3-41d7-850b-9d297d24d56c)
+    (property "Reference" "R?" (at 98.298 54.864 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100k" (at 98.298 57.404 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "KORA:R_1206" (at 97.79 55.499 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 96.012 55.499 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bc61d47f-4e41-443f-ab87-51b9e4862d02))
+    (pin "2" (uuid d388f2c8-0455-411a-987d-825f4db3828a))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 78.994 25.019 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9483c0c3-a97e-4bdf-9be1-2226176e860d)
+    (property "Reference" "R?" (at 80.899 24.384 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100k" (at 80.899 26.924 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "KORA:R_1206" (at 80.772 25.019 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 78.994 25.019 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 41febee1-1600-465c-becb-6613bf2f543e))
+    (pin "2" (uuid b7d45241-1400-4f91-ab38-a815ee43b4e3))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 32.893 80.137 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bb3083a1-f2ee-4c63-af36-39875e7abbc3)
+    (property "Reference" "R?" (at 34.798 79.502 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100k_2512_6W" (at 34.798 82.042 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "KORA:R_1206" (at 34.671 80.137 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.digikey.kr/en/products/detail/te-connectivity-passive-product/3560100KFT/9927431" (at 32.893 80.137 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e52e3003-c41c-46d3-aaec-7cb029149d35))
+    (pin "2" (uuid abf13ba7-0bfe-41a0-a21a-74c842f373ef))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 28.956 23.876 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bc101d81-7696-42e6-b1c0-bbc98d52c22e)
+    (property "Reference" "R?" (at 30.861 23.241 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100k" (at 30.861 25.781 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "KORA:R_1206" (at 30.734 23.876 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 28.956 23.876 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aa9ec96f-75a3-4bac-a428-ac98473a8347))
+    (pin "2" (uuid 7fe63cb2-594b-4237-9a9c-40c49ac4843d))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 78.994 40.259 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bdc390e5-a735-454d-8f47-c34a46049f2e)
+    (property "Reference" "R?" (at 81.407 39.624 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2k" (at 81.407 42.164 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "KORA:R_1206" (at 77.216 40.259 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 78.994 40.259 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3eeeab69-d1b7-43e6-bdec-ed4f215f0bfe))
+    (pin "2" (uuid 7c1f8d2c-7a88-4774-af7b-42629fdffe6c))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 49.911 102.997 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c670e322-4615-415b-9e6e-8e2ecc993b8d)
+    (property "Reference" "R?" (at 52.451 102.362 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100k_2512_6W" (at 52.451 104.902 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "KORA:R_1206" (at 51.689 102.997 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.digikey.kr/en/products/detail/te-connectivity-passive-product/3560100KFT/9927431" (at 49.911 102.997 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7f76f056-e3c6-4e2f-831b-ae69f64bf6d8))
+    (pin "2" (uuid ce71a460-1bc7-46fc-8183-1dd254a9b17f))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 32.893 95.377 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d4617256-d670-41eb-a0f8-2f2ef49860d2)
+    (property "Reference" "R?" (at 35.306 94.742 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1.5k_2512_6W" (at 35.306 97.282 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "KORA:R_1206" (at 31.115 95.377 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.digikey.kr/en/products/detail/te-connectivity-passive-product/3504G3A1K5FTDF/16814708" (at 32.893 95.377 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 41d1b565-ae4f-4819-b3e8-04089005be26))
+    (pin "2" (uuid cba8fd8f-e3b9-4aea-81e8-a27290f8ff01))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 49.911 95.377 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e39f0625-833b-4df9-8e1a-478ab1eb0ed4)
+    (property "Reference" "R?" (at 51.689 94.742 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "20k_2512_6W" (at 51.689 97.282 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "KORA:R_1206" (at 51.689 95.377 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.digikey.kr/en/products/detail/te-connectivity-passive-product/3504G3A2K0FTDF/16814725" (at 49.911 95.377 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 071ea737-9152-46fb-b6bc-b3eafa3c2cd9))
+    (pin "2" (uuid 012c42aa-2954-4be7-9fb3-2b9e9ffc745c))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 28.956 31.496 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ed4dcf5e-d1c1-43ae-a460-6507904e556a)
+    (property "Reference" "R?" (at 31.369 30.861 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100k" (at 31.369 33.401 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "KORA:R_1206" (at 30.734 31.496 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 28.956 31.496 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d394b89e-b48a-4127-a93c-a0093b15f58a))
+    (pin "2" (uuid f44c3af2-a09f-4e4a-a58e-5d2300e93b78))
+    (instances
+      (project "KEF-24 Revision"
+        (path "/34a0fe0d-67ef-4fbd-8fcf-9fef14ff812a"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Battery Box Circuit2"
+        (path "/755fa566-54b3-4cf3-a7e0-7ab9c2714066"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "#F-25 AC Circuit Rev01"
+        (path "/8248f393-097b-4dde-8f09-7e7409b98981"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project ""
+        (path "/a271515d-d751-4f33-a101-6b153cbed642"
+          (reference "R2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Mark\Documents\Kookmin\OneDrive - KookminUNIV\#KORA\#F-25\#KiCad\#F-25 Main\25 Accumulator Circuit\25 AC Circuit\#F-25 AC Circuit Rev01\#F-25 AC Circuit Rev01.kicad_sch</source>
+    <date>10/2/2024 6:22:05 PM</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>#F-25 AC Circuit Rev01.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF_35V</value>
+      <footprint>KORA:C_1206</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f96f25d-5325-4bd7-a37d-2e1970d5b66d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF_35V</value>
+      <footprint>KORA:C_1206</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7072c17-aad6-43d6-bbf0-4e881456c38f</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>2.2uF_35V</value>
+      <footprint>KORA:C_0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e4387e2-21f8-47d4-8277-bd14fd201ec5</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>2.2uF_35V</value>
+      <footprint>KORA:C_0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ba70b34-4a50-4580-bcb0-9e53b9ceb00a</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF_35V</value>
+      <footprint>KORA:C_0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c456c2b-021b-4635-b7aa-94e36c9ee077</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF_35V</value>
+      <footprint>KORA:C_0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1436ad8-162e-4719-9693-db765981fbce</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1uF 450V</value>
+      <footprint>KORA:1uF_450V_UVZ2W010MPD1TD</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afe925e1-8162-4143-9220-5f8d67776bec</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>KORA:1uF_50V_D4</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8401580f-6c39-4a85-86d6-7207171771b8</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF_35V</value>
+      <footprint>KORA:C_0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60fb00f5-1f66-43e8-ba8a-2e0a08e64665</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF_35V</value>
+      <footprint>KORA:C_0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43340b9f-cf4c-48f6-b1b3-fe35ce62caa4</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>2A_25V</value>
+      <footprint>KORA:2A_25V_STPS2L25U</footprint>
+      <libsource lib="" part="D_1" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cee9c4bb-2a65-443b-911c-f1cd51d0a0aa</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>2A_25V</value>
+      <footprint>KORA:2A_25V_STPS2L25U</footprint>
+      <libsource lib="" part="D_1" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83a17d65-f0b4-47b5-9641-014c3c756f75</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>2A_25V</value>
+      <footprint>KORA:2A_25V_STPS2L25U</footprint>
+      <libsource lib="" part="D_1" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cfd9c9d-4f00-437c-aede-acda88a34294</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>2A_25V</value>
+      <footprint>KORA:2A_25V_STPS2L25U</footprint>
+      <libsource lib="" part="D_1" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>403ee4eb-260e-4988-8d29-2cfbbbbfbd22</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>60V_Zener</value>
+      <footprint>KORA:60V zener_SMBJ5371B-TP</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43d98342-59b1-4fea-a70f-f311ee5f4a28</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>KORA:500mA_0680H0500-05</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b8a5744-61cd-491a-b310-32d77c672e02</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>828801-5</value>
+      <footprint>KORA:14Pin Connector_8288015</footprint>
+      <libsource lib="KORA" part="828801-5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f043fd82-c876-46a8-8d13-be1229e175e1</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>175976-2</value>
+      <footprint>KORA:28P Connector_1759762</footprint>
+      <libsource lib="KORA" part="175976-2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>735e5600-ff91-4c18-8602-04c7cf1ae17a</tstamps>
+    </comp>
+    <comp ref="K4">
+      <value>Coto_5504-12-1</value>
+      <footprint>KORA:Coto_5504-12-1</footprint>
+      <libsource lib="KORA" part="Coto_5504-12-1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91fcdc7e-086a-43b4-b81a-f96e4f653782</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>SQ2348ES-T1_GE3</value>
+      <footprint>KORA:N-MOS_DMN6140LQ-7</footprint>
+      <datasheet>https://www.vishay.com/docs/66718/sq2301es.pdf</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5384028b-c511-46e5-80b3-c608dcce775c</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>SQ2348ES-T1_GE3</value>
+      <footprint>KORA:N-MOS_DMN6140LQ-7</footprint>
+      <datasheet>https://www.vishay.com/docs/66718/sq2301es.pdf</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a89de96b-172c-4810-915e-274d21c60b99</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>SQ2348ES-T1_GE3</value>
+      <footprint>KORA:N-MOS_DMN6140LQ-7</footprint>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a487bf6-0d97-4358-a97b-5b118eaef1c7</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100k_2512_6W</value>
+      <footprint>KORA:R_2512</footprint>
+      <datasheet>https://www.digikey.kr/en/products/detail/te-connectivity-passive-product/3560100KFT/9927431</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>927599c0-34ce-4156-9f52-5b89d4d06289</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k_2512_6W</value>
+      <footprint>KORA:R_2512</footprint>
+      <datasheet>https://www.digikey.kr/en/products/detail/te-connectivity-passive-product/3560100KFT/9927431</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66cd20d9-1b7d-4b3e-8e55-0ba5127e7872</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1.5k_2512_6W</value>
+      <footprint>KORA:R_2512</footprint>
+      <datasheet>https://www.digikey.kr/en/products/detail/te-connectivity-passive-product/3504G3A1K5FTDF/16814708</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4bfd9aa-81b2-4cc6-a11a-5e264b608a4e</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100k_2512_6W</value>
+      <footprint>KORA:R_2512</footprint>
+      <datasheet>https://www.digikey.kr/en/products/detail/te-connectivity-passive-product/3560100KFT/9927431</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bb01f49-89a3-4a9a-8c5c-4eb9ad0eb874</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k_2512_6W</value>
+      <footprint>KORA:R_2512</footprint>
+      <datasheet>https://www.digikey.kr/en/products/detail/te-connectivity-passive-product/3560100KFT/9927431</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6cd8728-58f2-4245-af40-bd0cda5ad514</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1.4k_2512_6W</value>
+      <footprint>KORA:R_2512</footprint>
+      <datasheet>https://www.digikey.kr/en/products/detail/te-connectivity-passive-product/3504G3A1K4FTDF/16814905</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dccf6019-2932-4281-99c5-a965e7383331</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>11k</value>
+      <footprint>KORA:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bcb5e1b-a468-43f3-a058-e7f1c3433d62</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>KORA:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f551a170-b9ed-4f75-9cbb-2937356e1741</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>6.8k</value>
+      <footprint>KORA:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab85aea3-ca4d-4ff8-a76b-d92042852cf2</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>6.8k</value>
+      <footprint>KORA:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e01c805-4a07-4767-a490-37f1c1a9d1fd</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>KORA:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad8a2af2-9c15-4c1c-8feb-7a912495bd2d</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>KORA:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c8335ea-2299-4087-a8df-95f9f83a6f94</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>KORA:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbed237d-bae1-4b32-81a1-e59cf2504f29</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>KORA:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38563baa-9d9c-4575-8b3f-b38180a59b8c</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>4.7k</value>
+      <footprint>KORA:R_1206</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b3709ef-0e95-45e0-b534-fa287930cfa4</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>200k</value>
+      <footprint>KORA:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e261195-0d02-4931-ab4f-b510f67eeaa8</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>56k_0.25W</value>
+      <footprint>KORA:R_1206</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>345f1335-75bb-4fb8-8aa2-31849227f7c7</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>6.8k_0.25W</value>
+      <footprint>KORA:R_1206</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b1c4e2b-9ef8-47d4-b84b-4533a700603a</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1M</value>
+      <footprint>KORA:R_0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c728f3b0-bf77-459c-b99a-cb2f2bd23b87</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>6.8k</value>
+      <footprint>KORA:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2269bd99-7ecb-4a0d-a8dd-37b1114a9b3a</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>6.8k</value>
+      <footprint>KORA:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c491eb4-61e8-44f9-94a2-1c9993c67239</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>6.8k</value>
+      <footprint>KORA:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f76d3dd-9be6-4e87-9638-78a58803c8f7</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>6.8k</value>
+      <footprint>KORA:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61ac8c00-cd2e-4515-b0e1-0909015514f5</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>100</value>
+      <footprint>KORA:R_0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44fc7685-15bf-4641-a5d2-a379941c2580</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TMV_1205S</value>
+      <footprint>KORA:TMV1205S</footprint>
+      <libsource lib="KORA" part="TMV_1205S" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05d3ff27-ff63-497b-84de-f836ae5846ac</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM2903VQDRQ1</value>
+      <footprint>KORA:LM2903VQDRQ1</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm393.pdf</datasheet>
+      <libsource lib="KORA" part="LM2903VQDRQ1" description="Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"/>
+      <property name="ki_keywords" value="cmp open collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5882af1-aa99-42c0-81b4-109105bd622a 95bd0d83-7f3f-474b-ab7c-d23eb79556a3 4fafd832-b016-4801-ac4c-dc91f1070d40</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>G3VM-41</value>
+      <footprint>KORA:G3VM-41-AY</footprint>
+      <libsource lib="" part="G3VM-41_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6d1eeed-7084-4921-a914-672a3dcb986e</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>G3VM-41</value>
+      <footprint>KORA:G3VM-41-AY</footprint>
+      <libsource lib="" part="G3VM-41_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41cc4c30-df53-4ba8-84a1-43b6a0fc07a6</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LM2901</value>
+      <footprint>KORA:LM2901</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/lm2901.pdf</datasheet>
+      <libsource lib="Comparator" part="LM2901" description="Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"/>
+      <property name="ki_keywords" value="cmp open collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac5ec691-2fc9-4ae8-8a13-ccc0df52ca10 8d96ab0f-d0de-4e64-b899-dda26bd5c799 9877b314-a407-445c-8b39-a865305ead8c f55c1b4a-2021-4031-b8e6-4e062d1d1449 4911a996-5387-4826-813e-22c1cfbe6ef2</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>SN74LVC1G332</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74ahc1g08.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1722358576718&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74ahc1g08</datasheet>
+      <libsource lib="KORA" part="OR_SN74LVC1G332DBVR" description="Single 3-Input Positive-OR Gate"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Single 3-Input Positive-OR Gate"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5071d934-095d-49a0-829b-c308bd639619</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>LR8K4-G</value>
+      <footprint>KORA:LR8K4-G</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LR8K4-G" description="30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)"/>
+      <property name="ki_keywords" value="High-Voltage Regulator Adjustable Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c96134c-a303-42b1-a43c-8d76185a108f</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>NE555P</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <libsource lib="Timer" part="NE555P" description="Precision Timers, 555 compatible,  PDIP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <property name="ki_description" value="Precision Timers, 555 compatible,  PDIP-8"/>
+      <property name="ki_keywords" value="single timer 555"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acf4758d-40e5-444f-b42b-57dbed68d686</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>SN74LVC1G02DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <libsource lib="KORA" part="NOR_SN74LVC1G02DBVR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>267832d3-0faa-4d4d-92cb-fbbd93cc73e5</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>G3VM-41</value>
+      <footprint>KORA:G3VM-41-AY</footprint>
+      <libsource lib="" part="G3VM-41_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="#F-25 AC Circuit Rev01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d837d914-d5d7-4531-a8c1-d48af44f2563</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="D_1">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">D_1</field>
+        <field name="Footprint">KORA_footprint:2A_25V_STPS2L25U</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="G3VM-41_2">
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">G3VM-41</field>
+        <field name="Footprint">KORA:G3VM-41-AY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Comparator" part="LM2901">
+      <description>Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14</description>
+      <docs>https://www.st.com/resource/en/datasheet/lm2901.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2901</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/lm2901.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="open_collector"/>
+        <pin num="2" name="" type="open_collector"/>
+        <pin num="3" name="V+" type="power_in"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="+" type="input"/>
+        <pin num="8" name="-" type="input"/>
+        <pin num="9" name="+" type="input"/>
+        <pin num="10" name="-" type="input"/>
+        <pin num="11" name="+" type="input"/>
+        <pin num="12" name="V-" type="power_in"/>
+        <pin num="13" name="" type="open_collector"/>
+        <pin num="14" name="" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KORA" part="175976-2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">175976-2</field>
+        <field name="Footprint">KORA:28P Connector_175976-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="MH1" name="MH1" type="no_connect"/>
+        <pin num="MH2" name="MH2" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="KORA" part="828801-5">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">828801-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="MH1" name="MH1" type="no_connect"/>
+        <pin num="MH2" name="MH2" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="KORA" part="Coto_5504-12-1">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">Coto_5504-12-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KORA" part="LM2903VQDRQ1">
+      <description>Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm393.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOP*5.28x5.23mm*P1.27mm*</fp>
+        <fp>VSSOP*3.0x3.0mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2903VQDRQ1</field>
+        <field name="Footprint">KORA:LM2903VQDRQ1</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm393.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="open_collector"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="open_collector"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KORA" part="NOR_SN74LVC1G02DBVR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G02DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="KORA" part="OR_SN74LVC1G332DBVR">
+      <description>Single 3-Input Positive-OR Gate</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74ahc1g08.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1722358576718&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74ahc1g08</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G332</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74ahc1g08.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1722358576718&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74ahc1g08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="KORA" part="TMV_1205S">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMV_1205S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VIN(VCC)" type="passive"/>
+        <pin num="2" name="-VIN(GND)" type="passive"/>
+        <pin num="5" name="-VOUT" type="passive"/>
+        <pin num="7" name="+VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LR8K4-G">
+      <description>30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf</docs>
+      <footprints>
+        <fp>TO*252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LR8K4-G</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="ADJ" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="ADW11">
+      <description>Panasonic, 8A/16A, Small Polarized Latching Power Relays, Single coil, 1 Form A</description>
+      <docs>https://www.panasonic-electric-works.com/pew/es/downloads/ds_dw_hl_en.pdf</docs>
+      <footprints>
+        <fp>Relay*1P1T*NO*Panasonic*ADW11xxxxW*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">ADW11</field>
+        <field name="Footprint">Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT</field>
+        <field name="Datasheet">https://www.panasonic-electric-works.com/pew/es/downloads/ds_dw_hl_en.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="NE555P">
+      <description>Precision Timers, 555 compatible,  PDIP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne555.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">NE555P</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ne555.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Comparator">
+      <uri>C:\Program Files\KiCad\share\kicad\symbols\/Comparator.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="KORA">
+      <uri>C:/Users/Mark/Documents/Kookmin/OneDrive - KookminUNIV/#KORA/#F-25/#KiCad/Libraries &amp; Footprints/KORA.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>C:\Program Files\KiCad\share\kicad\symbols\/Relay.kicad_sym</uri>
+    </library>
+    <library logical="Timer">
+      <uri>C:\Program Files\KiCad\share\kicad\symbols\/Timer.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/5V">
+      <node ref="J2" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U6" pin="5" pintype="input"/>
+      <node ref="U9" pin="5" pintype="input"/>
+    </net>
+    <net code="2" name="5V_ISO">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="+VOUT" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="3" name="12V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J2" pin="24" pinfunction="24" pintype="passive"/>
+      <node ref="J2" pin="25" pinfunction="25" pintype="passive"/>
+      <node ref="J2" pin="26" pinfunction="26" pintype="passive"/>
+      <node ref="J2" pin="27" pinfunction="27" pintype="passive"/>
+      <node ref="J2" pin="28" pinfunction="28" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U10" pin="4" pintype="passive"/>
+      <node ref="U3" pin="4" pintype="passive"/>
+      <node ref="U4" pin="3" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="V+" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U8" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="4" name="90PER">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="5" name="ACCU(+)">
+      <node ref="J1" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="AIR_NEG_SIG">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="open_collector"/>
+      <node ref="U6" pin="1" pintype="input"/>
+    </net>
+    <net code="8" name="AIR_POS_SIG">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pintype="open_collector"/>
+      <node ref="U6" pin="6" pintype="input"/>
+    </net>
+    <net code="9" name="AUX_AIR_NEG">
+      <node ref="J2" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="10" name="AUX_AIR_POS">
+      <node ref="J2" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="11" name="AUX_PCHG">
+      <node ref="J2" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="12" name="AVI(+)">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="13" name="AVI(-)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="-VOUT" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="DCHG_RES(+)">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="K4" pin="4" pintype="passive"/>
+    </net>
+    <net code="15" name="DCHG_RES(-)">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="K4" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J2" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="K4" pin="3" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-VIN(GND)" pintype="passive"/>
+      <node ref="U10" pin="2" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="V-" pintype="power_in"/>
+      <node ref="U6" pin="2" pintype="input"/>
+      <node ref="U8" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="3" pintype="input"/>
+    </net>
+    <net code="17" name="HVActive_ISO">
+      <node ref="U4" pin="4" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="18" name="HVActive_SIG">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U5" pin="14" pintype="open_collector"/>
+      <node ref="U9" pin="2" pintype="input"/>
+    </net>
+    <net code="19" name="INV(+)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D5-A)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="open_collector"/>
+      <node ref="U3" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pintype="open_collector"/>
+      <node ref="U4" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U10" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(U1-+VIN(VCC))">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="+VIN(VCC)" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(U2B--)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(U5A--)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="-" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(U5C--)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="-" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4" pintype="output"/>
+      <node ref="U9" pin="1" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(U7-ADJ)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(U8-DIS)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U8" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U8-Q)">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="34" name="Net-(U8-THR)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="U8" pin="6" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="35" name="PCHGED_ISO">
+      <node ref="D3" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="21" pinfunction="21" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U3" pin="3" pintype="passive"/>
+    </net>
+    <net code="36" name="PCHG_LED(-)">
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="38" name="PCHG_SIG">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U5" pin="13" pintype="open_collector"/>
+      <node ref="U6" pin="3" pintype="input"/>
+    </net>
+    <net code="39" name="SDC">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D1" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="C" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J2" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="J2" pin="23" pinfunction="23" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="K4" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="TSAL_GRN(-)">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="41" name="TSAL_GRN_ON">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U9" pin="4" pintype="output"/>
+    </net>
+    <net code="42" name="TSAL_RED(+)">
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="U10" pin="3" pintype="passive"/>
+    </net>
+    <net code="43" name="TSAL_RED(-)">
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="44" name="TS_Stat">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="45" name="unconnected-(J1-Pad5)">
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J1-PadMH1)">
+      <node ref="J1" pin="MH1" pinfunction="MH1" pintype="no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(J1-PadMH2)">
+      <node ref="J1" pin="MH2" pinfunction="MH2" pintype="no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(J2-PadMH1)">
+      <node ref="J2" pin="MH1" pinfunction="MH1" pintype="no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(J2-PadMH2)">
+      <node ref="J2" pin="MH2" pinfunction="MH2" pintype="no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U8-CV-Pad5)">
+      <node ref="U8" pin="5" pinfunction="CV" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
